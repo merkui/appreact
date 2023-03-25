@@ -32,7 +32,66 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/*Custom*/
+header {
+
+  width: 100%;
+  display: block;
+  z-index: 100;
+  min-height: 75px;
+}
+
+nav {
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #999;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background: #eca023;
+}
+
+.logo-container {
+  float: left;
+  padding: 0px 0 0 10px;
+}
+
+.cart-widget {
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+}
+
+.qty-display {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-color: red;
+  border-radius: 50%;
+  font-size: 12px;
+  position: absolute;
+  text-align: center;
+  line-height: 17px;
 }
